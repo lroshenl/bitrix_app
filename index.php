@@ -8,7 +8,7 @@ function redirect($url)
 
 define('APP_ID', 'local.5c9884c29df1d8.40495353'); // take it from Bitrix24 after adding a new application
 define('APP_SECRET_CODE', 'rBs14zoeQXrJe2vbPx7qNG11B9Ul71bADbUGlSY47nz9ZmPDSG'); // take it from Bitrix24 after adding a new application
-define('APP_REG_URL', 'https://github.com/lroshenl/bitrix_app/index.php'); // the same URL you should set when adding a new application in Bitrix24
+define('APP_REG_URL', 'https://github.com/lroshenl/bitrix_app/blob/master/index.php'); // the same URL you should set when adding a new application in Bitrix24
 
 
 $domain = isset($_REQUEST['portal']) ? $_REQUEST['portal'] : ( isset($_REQUEST['domain']) ? $_REQUEST['domain'] : 'empty');
